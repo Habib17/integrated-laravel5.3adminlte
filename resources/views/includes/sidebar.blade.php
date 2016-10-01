@@ -86,7 +86,6 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
                 </a>
-                form/aform
                 <ul class="treeview-menu">
                     <li><a href="{{ URL::asset('/form/gform') }}"><i class="fa fa-circle-o"></i> General Elements</a></li>
                     <li><a href="{{ URL::asset('/form/aform') }}"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
@@ -116,15 +115,18 @@
             </span>
                 </a>
             </li>
-            <li>
-                <a href="{{ URL::asset('mailbox/inbox') }}">
+            <li class="treeview">
+                <a href="#">
                     <i class="fa fa-envelope"></i> <span>Mailbox</span>
                     <span class="pull-right-container">
-              <small class="label pull-right bg-yellow"></small>
-              <small class="label pull-right bg-green"></small>
-              <small class="label pull-right bg-red"></small>
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
                 </a>
+                <ul class="treeview-menu">
+                    <li><a href="{{ URL::asset('mailbox/inbox') }}"><i class="fa fa-circle-o"></i>Inbox</a></li>
+                    <li><a href="{{ URL::asset('/form/aform') }}"><i class="fa fa-circle-o"></i>Compose</a></li>
+                    <li><a href="{{ URL::asset('/form/editor') }}"><i class="fa fa-circle-o"></i>Read</a></li>
+                </ul>
             </li>
             <li class="treeview">
                 <a href="#">
