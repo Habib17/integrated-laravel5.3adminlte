@@ -136,9 +136,9 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="assets/dist/js/pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-                    <li><a href="assets/dist/js/pages/examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
-                    <li><a href="assets/dist/js/pages/examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
+                    <li><a href="{{ URL::asset('example/invoice') }}"><i class="fa fa-circle-o"></i> Invoice</a></li>
+                    <li><a href="{{ URL::asset('example/login') }}"><i class="fa fa-circle-o"></i>Login </a></li>
+                    <li><a href="{{ URL::asset('example/profile') }}"><i class="fa fa-circle-o"></i>Profile</a></li>
                     <li><a href="assets/dist/js/pages/examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
                     <li><a href="assets/dist/js/pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
                     <li><a href="assets/dist/js/pages/examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>

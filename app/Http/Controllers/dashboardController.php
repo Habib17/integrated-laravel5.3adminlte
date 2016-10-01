@@ -64,6 +64,15 @@ class dashboardController extends BaseController
     public function read(){
         return view('partials.read');
     }
+    public function invoice(){
+        return view('partials.example_invoice');
+    }
+    public function login(){
+        return view('partials.example_login');
+    }
+    public function profile(){
+        return view('partials.example_profile');
+    }
 }
 
 

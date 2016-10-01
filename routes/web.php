@@ -29,3 +29,7 @@ Route::get('calendar', 'dashboardController@calendar');
 Route::get('mailbox/inbox', 'dashboardController@mailbox');
 Route::get('mailbox/compose', 'dashboardController@compose');
 Route::get('mailbox/read', 'dashboardController@read');
+Route::get('example/invoice', 'dashboardController@invoice');
+Route::get('example/login', 'dashboardController@login');
+Route::get('example/profile', 'dashboardController@profile');
+
