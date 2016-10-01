@@ -139,12 +139,12 @@
                     <li><a href="{{ URL::asset('example/invoice') }}"><i class="fa fa-circle-o"></i> Invoice</a></li>
                     <li><a href="{{ URL::asset('example/login') }}"><i class="fa fa-circle-o"></i>Login </a></li>
                     <li><a href="{{ URL::asset('example/profile') }}"><i class="fa fa-circle-o"></i>Profile</a></li>
-                    <li><a href="{{ URL::asset('example/register') }}l"><i class="fa fa-circle-o"></i> Register</a></li>
+                    <li><a href="{{ URL::asset('example/register') }}"><i class="fa fa-circle-o"></i> Register</a></li>
                     <li><a href="{{ URL::asset('example/lock') }}"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
                     <li><a href="{{ URL::asset('example/404') }}"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-                    <li><a href="assets/dist/js/pages/examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-                    <li><a href="assets/dist/js/pages/examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-                    <li><a href="assets/dist/js/pages/examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
+                    <li><a href="{{ URL::asset('example/500') }}"><i class="fa fa-circle-o"></i> 500 Error</a></li>
+                    <li><a href="{{ URL::asset('example/blank') }}"><i class="fa fa-circle-o"></i> Blank Page</a></li>
+                    <li><a href="{{ URL::asset('example/pace') }}"><i class="fa fa-circle-o"></i> Pace Page</a></li>
                 </ul>
             </li>
             <li class="treeview">

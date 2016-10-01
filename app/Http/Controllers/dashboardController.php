@@ -82,6 +82,15 @@ class dashboardController extends BaseController
     public function error(){
         return view('partials.example_404');
     }
+    public function errora(){
+        return view('partials.example_500');
+    }
+    public function blank(){
+        return view('partials.example_blank');
+    }
+    public function pace(){
+        return view('partials.example_pace');
+    }
 }
 
 

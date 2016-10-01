@@ -35,4 +35,7 @@ Route::get('example/profile', 'dashboardController@profile');
 Route::get('example/register', 'dashboardController@register');
 Route::get('example/lock', 'dashboardController@lock');
 Route::get('example/404', 'dashboardController@error');
+Route::get('example/500', 'dashboardController@errora');
+Route::get('example/blank', 'dashboardController@blank');
+Route::get('example/pace', 'dashboardController@pace');
 
