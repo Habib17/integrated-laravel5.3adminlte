@@ -27,3 +27,4 @@ Route::get('table/simple', 'dashboardController@simplet');
 Route::get('table/data', 'dashboardController@datat');
 Route::get('calendar', 'dashboardController@calendar');
 Route::get('mailbox/inbox', 'dashboardController@mailbox');
+Route::get('mailbox/compose', 'dashboardController@compose');

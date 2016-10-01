@@ -58,6 +58,9 @@ class dashboardController extends BaseController
     public function mailbox(){
         return view('partials.mailbox');
     }
+    public function compose(){
+        return view('partials.compose');
+    }
 
 }
 
