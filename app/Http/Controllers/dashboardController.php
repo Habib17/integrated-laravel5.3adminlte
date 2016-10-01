@@ -73,6 +73,15 @@ class dashboardController extends BaseController
     public function profile(){
         return view('partials.example_profile');
     }
+    public function register(){
+        return view('partials.example_register');
+    }
+    public function lock(){
+        return view('partials.example_lock');
+    }
+    public function error(){
+        return view('partials.example_404');
+    }
 }
 
 

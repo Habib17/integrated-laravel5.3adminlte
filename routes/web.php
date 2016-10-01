@@ -32,4 +32,7 @@ Route::get('mailbox/read', 'dashboardController@read');
 Route::get('example/invoice', 'dashboardController@invoice');
 Route::get('example/login', 'dashboardController@login');
 Route::get('example/profile', 'dashboardController@profile');
+Route::get('example/register', 'dashboardController@register');
+Route::get('example/lock', 'dashboardController@lock');
+Route::get('example/404', 'dashboardController@error');
 

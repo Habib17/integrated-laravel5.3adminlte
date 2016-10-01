@@ -51,6 +51,7 @@
         <!-- /.login-box-body -->
     </div>
     </div>
+    </div>
 @endsection
 @section('scripts')
 @endsection
