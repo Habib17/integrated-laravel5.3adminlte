@@ -29,7 +29,6 @@
     <link rel="stylesheet" href="{{ URL::asset('assets/plugins/daterangepicker/daterangepicker.css') }}">
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="{{ URL::asset('assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -286,6 +285,27 @@
 <script src="{{ URL::asset('assets/dist/js/pages/dashboard.js') }}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{ URL::asset('assets/dist/js/demo.js') }}"></script>
+<script src="{{ URL::asset('assets/plugins/jQuery/jquery-2.2.3.min.js') }}"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="{{ URL::asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
+<!-- FastClick -->
+<script src="{{ URL::asset('assets/plugins/fastclick/fastclick.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ URL::asset('assets/dist/js/app.min.js') }}"></script>
+<!-- Sparkline -->
+<script src="{{ URL::asset('assets/plugins/sparkline/jquery.sparkline.min.js') }}"></script>
+<!-- jvectormap -->
+<script src="{{ URL::asset('assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js') }}"></script>
+<script src="{{ URL::asset('assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
+<!-- SlimScroll 1.3.0 -->
+<script src="{{ URL::asset('assets/plugins/slimScroll/jquery.slimscroll.min.js') }}"></script>
+<!-- ChartJS 1.0.1 -->
+<script src="{{ URL::asset('assets/plugins/chartjs/Chart.min.js') }}"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="{{ URL::asset('assets/dist/js/pages/dashboard2.js') }}"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="{{ URL::asset('assets/dist/js/demo.js') }}"></script>
+
 @yield('scripts')
 </body>
 </html>
