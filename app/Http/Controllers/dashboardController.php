@@ -61,7 +61,9 @@ class dashboardController extends BaseController
     public function compose(){
         return view('partials.compose');
     }
-
+    public function read(){
+        return view('partials.read');
+    }
 }
 
 

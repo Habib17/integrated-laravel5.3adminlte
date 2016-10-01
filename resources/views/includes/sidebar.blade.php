@@ -125,7 +125,7 @@
                 <ul class="treeview-menu">
                     <li><a href="{{ URL::asset('mailbox/inbox') }}"><i class="fa fa-circle-o"></i>Inbox</a></li>
                     <li><a href="{{ URL::asset('mailbox/compose') }}"><i class="fa fa-circle-o"></i>Compose</a></li>
-                    <li><a href="{{ URL::asset('/form/editor') }}"><i class="fa fa-circle-o"></i>Read</a></li>
+                    <li><a href="{{ URL::asset('mailbox/read') }}"><i class="fa fa-circle-o"></i>Read</a></li>
                 </ul>
             </li>
             <li class="treeview">
