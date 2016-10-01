@@ -24,3 +24,6 @@ Route::get('uielement/modal', 'dashboardController@modal');
 Route::get('form/gform', 'dashboardController@gform');
 Route::get('form/editor', 'dashboardController@editor');
 Route::get('table/simple', 'dashboardController@simplet');
+Route::get('table/data', 'dashboardController@datat');
+Route::get('calendar', 'dashboardController@calendar');
+Route::get('mailbox/inbox', 'dashboardController@mailbox');

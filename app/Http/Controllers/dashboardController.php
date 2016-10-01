@@ -49,6 +49,15 @@ class dashboardController extends BaseController
     public function simplet(){
         return view('partials.table_simple');
     }
+    public function datat(){
+        return view('partials.data_table');
+    }
+    public function calendar(){
+        return view('partials.calendar');
+    }
+    public function mailbox(){
+        return view('partials.mailbox');
+    }
 
 }
 

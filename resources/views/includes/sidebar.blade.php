@@ -102,11 +102,13 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="{{ URL::asset('/table/simple') }}"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-                    <li><a href="assets/dist/js/pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
+                    <li><a href="{{ URL::asset('/table/data') }}"><i class="fa fa-circle-o"></i> Data tables</a></li>
+
+
                 </ul>
             </li>
             <li>
-                <a href="assets/dist/js/pages/calendar.html">
+                <a href="{{ URL::asset('calendar') }}">
                     <i class="fa fa-calendar"></i> <span>Calendar</span>
                     <span class="pull-right-container">
               <small class="label pull-right bg-red">3</small>
@@ -115,12 +117,12 @@
                 </a>
             </li>
             <li>
-                <a href="assets/dist/js/pages/mailbox/mailbox.html">
+                <a href="{{ URL::asset('mailbox/inbox') }}">
                     <i class="fa fa-envelope"></i> <span>Mailbox</span>
                     <span class="pull-right-container">
-              <small class="label pull-right bg-yellow">12</small>
-              <small class="label pull-right bg-green">16</small>
-              <small class="label pull-right bg-red">5</small>
+              <small class="label pull-right bg-yellow"></small>
+              <small class="label pull-right bg-green"></small>
+              <small class="label pull-right bg-red"></small>
             </span>
                 </a>
             </li>
