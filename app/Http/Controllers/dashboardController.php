@@ -53,43 +53,43 @@ class dashboardController extends BaseController
         return view('partials.data_table');
     }
     public function calendar(){
-        return view('partials.calendar');
+        return view('partials.calendar.calendar');
     }
     public function mailbox(){
-        return view('partials.mailbox');
+        return view('partials.mailbox.mailbox');
     }
     public function compose(){
-        return view('partials.compose');
+        return view('partials.mailbox.compose');
     }
     public function read(){
-        return view('partials.read');
+        return view('partials.mailbox.read');
     }
     public function invoice(){
-        return view('partials.example_invoice');
+        return view('partials.examples.example_invoice');
     }
     public function login(){
-        return view('partials.example_login');
+        return view('partials.examples.example_login');
     }
     public function profile(){
-        return view('partials.example_profile');
+        return view('partials.examples.example_profile');
     }
     public function register(){
-        return view('partials.example_register');
+        return view('partials.examples.example_register');
     }
     public function lock(){
-        return view('partials.example_lock');
+        return view('partials.examples.example_lock');
     }
     public function error(){
-        return view('partials.example_404');
+        return view('partials.examples.example_404');
     }
     public function errora(){
-        return view('partials.example_500');
+        return view('partials.examples.example_500');
     }
     public function blank(){
-        return view('partials.example_blank');
+        return view('partials.examples.example_blank');
     }
     public function pace(){
-        return view('partials.example_pace');
+        return view('partials.examples.example_pace');
     }
     public function chartjs(){
         return view('partials.charts.chartjs');
