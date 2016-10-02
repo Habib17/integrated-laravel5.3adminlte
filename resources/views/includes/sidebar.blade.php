@@ -59,7 +59,7 @@
                     <li><a href="{{ URL::asset('/chart/chartjs') }}"><i class="fa fa-circle-o"></i> ChartJS</a></li>
                     <li><a href="{{ URL::asset('/chart/morris') }}"><i class="fa fa-circle-o"></i> Morris</a></li>
                     <li><a href="{{ URL::asset('/chart/flot') }}"><i class="fa fa-circle-o"></i> Flot</a></li>
-                    <li><a href="assets/dist/js/pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+                    <li><a href="{{ URL::asset('/chart/inline') }}"><i class="fa fa-circle-o"></i> Inline charts</a></li>
                 </ul>
             </li>
             <li class="treeview">

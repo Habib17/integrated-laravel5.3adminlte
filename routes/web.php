@@ -43,4 +43,5 @@ Route::get('example/pace', 'dashboardController@pace');
 Route::get('chart/chartjs', 'dashboardController@chartjs');
 Route::get('chart/morris', 'dashboardController@morris');
 Route::get('chart/flot', 'dashboardController@flot');
+Route::get('chart/inline', 'dashboardController@inline');
 

@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master_chart.master_chart2')
 @section('title','OOO')
 @section('content')
     <section class="content-header">
