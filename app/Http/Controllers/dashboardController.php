@@ -38,13 +38,13 @@ class dashboardController extends BaseController
         return view('partials.modal');
     }
     public function gform(){
-        return view('partials.gform');
+        return view('partials.forms.gform');
     }
     public function aform(){
-        return view('partials.aform');
+        return view('partials.forms.aform');
     }
     public function editor(){
-        return view('partials.editor');
+        return view('partials.forms.editor');
     }
     public function simplet(){
         return view('partials.tables.table_simple');

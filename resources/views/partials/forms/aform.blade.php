@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master_form.master_form')
 @section('title','OOO')
 @section('content')
     <section class="content-header">
