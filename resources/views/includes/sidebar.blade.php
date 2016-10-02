@@ -40,7 +40,7 @@
             </li>
 
             <li>
-                <a href="/widget">
+                <a href="{{ URL::asset('/widget') }}">
                     <i class="fa fa-th"></i> <span>Widgets</span>
                     <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
@@ -56,9 +56,9 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="assets/dist/js/pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-                    <li><a href="assets/dist/js/pages/charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-                    <li><a href="assets/dist/js/pages/charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
+                    <li><a href="{{ URL::asset('/chart/chartjs') }}"><i class="fa fa-circle-o"></i> ChartJS</a></li>
+                    <li><a href="{{ URL::asset('/chart/morris') }}"><i class="fa fa-circle-o"></i> Morris</a></li>
+                    <li><a href="{{ URL::asset('/chart/flot') }}"><i class="fa fa-circle-o"></i> Flot</a></li>
                     <li><a href="assets/dist/js/pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
                 </ul>
             </li>

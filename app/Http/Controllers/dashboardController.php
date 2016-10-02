@@ -91,6 +91,16 @@ class dashboardController extends BaseController
     public function pace(){
         return view('partials.example_pace');
     }
+    public function chartjs(){
+        return view('partials.chartjs');
+    }
+    public function flot(){
+        return view('partials.flot');
+    }
+    public function morris(){
+        return view('partials.morris');
+    }
+
 }
 
 

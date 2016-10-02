@@ -38,4 +38,7 @@ Route::get('example/404', 'dashboardController@error');
 Route::get('example/500', 'dashboardController@errora');
 Route::get('example/blank', 'dashboardController@blank');
 Route::get('example/pace', 'dashboardController@pace');
+Route::get('chart/chartjs', 'dashboardController@chartjs');
+Route::get('chart/morris', 'dashboardController@morris');
+Route::get('chart/flot', 'dashboardController@flot');
 
