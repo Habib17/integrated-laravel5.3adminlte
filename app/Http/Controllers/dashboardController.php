@@ -9,33 +9,33 @@ use Illuminate\Routing\Controller as BaseController;
 class dashboardController extends BaseController
 {
     public function index(){
-        return view('partials.dashboard');
+        return view('partials.layout.dashboard');
     }
     public function ui(){
-        return view('partials.ui');
+        return view('partials.layout.ui');
     }
     public function widget(){
         return view('partials.widget');
     }
 
     public function icon(){
-        return view('partials.icon');
+        return view('partials.ui.icon');
     }
 
     public function button(){
-        return view('partials.buttons');
+        return view('partials.ui.buttons');
     }
 
     public function slider(){
-        return view('partials.sliders');
+        return view('partials.ui.sliders');
     }
 
     public function timeline(){
-        return view('partials.timeline');
+        return view('partials.ui.timeline');
     }
 
     public function modal(){
-        return view('partials.modal');
+        return view('partials.ui.modal');
     }
     public function gform(){
         return view('partials.forms.gform');
