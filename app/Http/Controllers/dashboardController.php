@@ -47,10 +47,10 @@ class dashboardController extends BaseController
         return view('partials.editor');
     }
     public function simplet(){
-        return view('partials.table_simple');
+        return view('partials.tables.table_simple');
     }
     public function datat(){
-        return view('partials.data_table');
+        return view('partials.tables.data_table');
     }
     public function calendar(){
         return view('partials.calendar.calendar');
