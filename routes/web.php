@@ -23,6 +23,7 @@ Route::get('uielement/slider', 'dashboardController@slider');
 Route::get('uielement/timeline', 'dashboardController@timeline');
 Route::get('uielement/modal', 'dashboardController@modal');
 Route::get('form/gform', 'dashboardController@gform');
+Route::get('form/aform', 'dashboardController@aform');
 Route::get('form/editor', 'dashboardController@editor');
 Route::get('table/simple', 'dashboardController@simplet');
 Route::get('table/data', 'dashboardController@datat');
