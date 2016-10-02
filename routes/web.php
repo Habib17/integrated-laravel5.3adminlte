@@ -16,7 +16,8 @@
 Route::get('/', 'dashboardController@index');
 Route::get('/ui', 'dashboardController@ui');
 Route::get('/widget', 'dashboardController@widget');
-Route::get('uielement/icon', 'dashboardController@iocn');
+Route::get('uielement/general', 'dashboardController@general');
+Route::get('uielement/icon', 'dashboardController@icon');
 Route::get('uielement/button', 'dashboardController@button');
 Route::get('uielement/slider', 'dashboardController@slider');
 Route::get('uielement/timeline', 'dashboardController@timeline');

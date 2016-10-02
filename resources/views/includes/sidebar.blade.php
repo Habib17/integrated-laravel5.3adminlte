@@ -71,9 +71,9 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{ URL::asset('/ui') }}"><i class="fa fa-circle-o"></i> General</a></li>
+                    <li><a href="{{ URL::asset('/uielement/general') }}"><i class="fa fa-circle-o"></i> General</a></li>
                     <li><a href="{{ URL::asset('/uielement/icon') }}"><i class="fa fa-circle-o"></i> Icons</a></li>
-                    <li><a href="{{ URL::asset('/uielement/icon') }}"><i class="fa fa-circle-o"></i> Buttons</a></li>
+                    <li><a href="{{ URL::asset('/uielement/button') }}"><i class="fa fa-circle-o"></i> Buttons</a></li>
                     <li><a href="{{ URL::asset('/uielement/slider') }}"><i class="fa fa-circle-o"></i> Sliders</a></li>
                     <li><a href="{{ URL::asset('/uielement/timeline') }}"><i class="fa fa-circle-o"></i> Timeline</a></li>
                     <li><a href="{{ URL::asset('/uielement/modal') }}"><i class="fa fa-circle-o"></i> Modals</a></li>

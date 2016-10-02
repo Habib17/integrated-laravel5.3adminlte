@@ -100,6 +100,9 @@ class dashboardController extends BaseController
     public function morris(){
         return view('partials.morris');
     }
+    public function general(){
+        return view('partials.general');
+    }
 
 }
 
