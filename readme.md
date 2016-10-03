@@ -7,7 +7,7 @@
 **1. Clone this repo:**
 
 ```sh
-git clone https://github.com/cyberid41/crud-using-repository-laravel-5-3.git
+git clone https://github.com/Habib17/integrated-laravel5.3adminlte.git
 ```
 
 **2. Install the dependencies:**
