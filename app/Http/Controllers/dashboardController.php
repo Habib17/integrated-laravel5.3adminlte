@@ -104,7 +104,7 @@ class dashboardController extends BaseController
         return view('partials.charts.inline');
     }
     public function general(){
-        return view('partials.general');
+        return view('partials.ui.general');
     }
 
 }

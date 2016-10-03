@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master_layout.master_layout2')
 @section('title','OOO')
 @section('content')
 <section class="content-header">
